@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.tea_pro{width:730px;float:right;margin-top:32px;padding-left:8px;border-left:#176f01 1px solid;}
+.link_nav{width:730px; border-bottom:#176f01 1px solid;height:30px;color:#176f01;font-size:12px;}
+.link_nav a{ color:#176f01;}
+.current_p{font-weight:bold;}
+/*茶品*/
+.tea_center_pro_list{width:255px;float:left;background-color:white;}
+.tea_center_list{width:196px;margin-left:64px;margin-top:30px;}
+.tea_center_pro{float:left;}
+.tea_center_pro01{width:350px;margin-top:20px;padding-left:10px;float:left;}
+.tea_center_pro01 img{width:200px; height:200px;float:left;}
+.tea_center_pro_intro{ width:140px;float:right;margin-top:20px;margin-left:10px;}
+.tea_center_pro_intro h4{color:#F90; font-family:"宋体"; font-size:14px;}
+.tea_center_pro_intro h5{ color:#333; font-family:"宋体"; margin-top:15px;margin-bottom:10px;}
+.tea_center_pro_intro p{line-height:24px; font-size:12px;}
+.tea_center_pro_intro p span{color:#F90; font-weight:bold;font-family:"宋体"; font-size:12px;}
+/*产品分类下拉菜单*/
+.pro_class_B{width:179px; padding-left:4px;line-height:20px;border-top:#eee 1px dotted;margin-right:8px;}
+.pro_class_B p a{margin:4px 0;margin-right:5px;color:#F90;margin-bottom:6px;line-height:20px;font-size:12px;}
+.pro_class_B a{line-height:24px;font-family:"宋体"; font-size:14px;color:#176f01;}
+.pro_class_a01{ font-weight:normal;}
+/*上下翻页*/
+#zj_pager{ padding-left:200px; margin:0 auto;overflow:hidden; margin-top:30px;}
+.sabrosus{ text-align:center; height:22px; line-height:20px;margin-top:20px;}
+.sabrosus a{padding:0 7px; color:#176f01; float:left; font-size:12px; margin:0 5px;font-weight:bold;background-color:#fff;border:#176f01 1px solid;}
+.sabrosus a:hover{background-color:#eee; color:#333;}
+/*茶品详情*/
+.tea_center_pro_details{width:733px;margin-top:20px; text-align:center;}
+.tea_center_pro_details img{width:500px;height:350px;margin-top:10px;}
+.tea_center_pro_details_intro{ margin-top:30px;}
+.tea_center_pro_details_intro h4{ margin-top:20px;}
+.tea_center_pro_details_intro_p01{color:#333; text-align:center;font-size:12px;font-family:"宋体"; line-height:20px; margin-top:10px;}
+.tea_center_pro_details_intro_p02{text-align:center;margin-left:10px;color:#333; font-size:12px;font-family:"宋体"; line-height:20px; }
+/*茶园风光*/
+.tea_garden{width:180px;}
+.tell_pic{margin-left:54px; margin-top:30px;}
+

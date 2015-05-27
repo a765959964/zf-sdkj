@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+img { border: 0px; }
+.bannerbox { width: 1000px; height: 180px; overflow: hidden; margin: 0px auto; }
+#focus { width: 1000px; height: 180px; clear: both; overflow: hidden;}
+    #focus ul { width: 4000px; height: 180px;position: absolute; clear: both; padding: 0px; margin: 0px; }
+        #focus ul li { float: left; width: 1000px; height: 180px; overflow: hidden;padding: 0px; margin: 0px; }
+		#focus ul li a{display:block;width:240px; height:180px;float:left;margin-left:4px;margin-top:10px;margin-right:4px; position:relative; }
+    #focus .preNext { width: 70px; height: 200px; position: absolute; top: 0px; cursor: pointer; }
+    #focus .pre { left: 0; background: url(../images/sprite.png) no-repeat left center; }
+    #focus .next { right: 0; background:url(../images/sprite1.png) no-repeat right center; }
+.focus_pro_intro{ display:block;width:240px;height:30px; background:url(../images/banner_b_bg_03.png) repeat-x bottom; padding-top:140px;bottom:0px;left:5px; position:absolute;color:#FFF; text-align:center;line-height:22px;}
+.focus_pro_intro:hover{color:#cef44e;background:url(../images/banner_b_bg_03.png);font-size:14px; font-weight:bold;}
+.pro_list_pic img:hover{border:#FC0 1px solid;}

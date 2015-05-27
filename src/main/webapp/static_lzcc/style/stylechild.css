@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{ text-decoration:none; color:inherit;}
+ul,li{ list-style-type:none;}
+/*透明背景*/
+
+/*交互效果*/
+.pro_class_B {
+	cursor: pointer;
+}
+.pro_class_B a:hover{color:#cef44e;}
+
+#tea_news_01 li:hover{color:#cef44e;}
+#tea_news_01 li a:hover{color:#cef44e;}
+#tea_news_01 li span:hover{color:#cef44e;}
+#roll li:hover{color:#cef44e;}
+#roll li a:hover{color:#cef44e;}
+a:hover{color:#cef44e;}
+.drop-menu-effect:hover{ background:url(../images/nav_bg_03.png) no-repeat center; color:#F90;z-index:199;}
+.drop-menu-effect p a{color:#fff;}
+.submenu{width:80px;height:135px;padding-top:80px;display:none;position:absolute;top:0px;left:0px; background: #b9e32b; background:url(../images/nav_about_bg_03.png) no-repeat center 0;z-index:-1;behavior:url("pngbehavior.htc");
+}
+.submenu li{width:80px;height:20px; color:#fff; font-size:12px;text-align:center;line-height:20px; }
+.submenu li a{ color:#fff;}
+.submenu li:hover{ background-color:#389920;color:#F90;}
+.submenu li a:hover{color:#F90;}
+/*茶园动态*/
+#tea_news_01{height:190px;margin-top:6px;padding-top:10px; overflow:hidden;}
+#tea_news_01 li{width:330px;padding-left:10px; background-image:url(../images/new_dian_07.png); background-repeat:no-repeat; background-position:left center;margin:0 15px;line-height:21px;font-size:12px;}
+#tea_news_01 li a{display:block;color:#176f01; float:left;}
+#tea_news_01 li span{display:block;color:#176f01; float:right;}
+/*茶品推荐*/
+.pro_list_pic img:hover{border:#cef44e 1px solid;}-->*/
+/*logo导航*/
+body{ background-image:url(../images/body_bg.png);}
+.body_box{width:1000px;margin:0 auto;}
+.header{width:1000px; height:120px; background-image:url(../images/top_bg_02.png);background-position:right top; background-repeat:no-repeat;margin:0 auto;}
+.header img{margin-top:30px; float:left;}
+.nav_top{width:572px;float:right;margin-top:40px;margin-right:50px;}
+.drop-menu-effect{width:80px;height:80px; background:url(../images/nav_bg_05.png) no-repeat center;margin-left:62px;float:left;position:relative;z-index:199;}
+.nav_top li p{ text-align:center;line-height:22px;font-size:12px;color:#FFF;margin-top:20px; font-family:"宋体";}
+.nav_top li p span{font-weight:bold;font-size:14px;}
+/*banner*/
+.child_page_banner{ width:1000px; height:188px; border-top:#135e00 5px solid;margin:0 auto;background:url(../images/page_img.jpg) no-repeat top center;margin-top:40px;}
+.child_page_banner_b{width:1000px;height:188px;margin:0 auto;}
+/*内容*/
+.container_box{width:1000px; margin:0 auto;overflow:hidden;margin-top:10px;}
+.about_lzc{width:300px;float:left;}
+.cloumn_bg{width:69px;height:52px;background-image:url(../images/bg_top_06.png); background-repeat:no-repeat;float:left;}
+.cloumnA{height:53px;margin-top:10px;}
+.cloumnB{width:260px; height:53px;margin-top:10px;}
+.cloumn_B_n a{display:block;color:#F90;font-size:12px;font-weight:bold;margin-top:22px;float:right;margin-right:10px; margin-left:50px;}
+.cloumn_B_n{height:52px; width:178px;float:left;margin-left:5px; border-bottom:#176f01 1px solid;}
+.cloumn_B_n p{color:#176f01;margin-top:12px;float:left;}
+.cloumn_n{height:52px;float:left;margin-left:5px; border-bottom:#176f01 1px solid;}
+.cloumn_n a{display:block;color:#F90;font-size:12px;font-weight:bold;margin-top:22px;float:right;margin-right:10px; margin-left:74px;}
+.cloumn_n p{color:#176f01;margin-top:12px;float:left;}
+.span_01{font-size:14px;font-weight:bold;}
+.span_02{font-size:12px; font-family:"宋体";}
+.pro_class_a02{ display:inline;width:40px;}
+.video_com{width:298px;height:208px;border:#176f01 1px solid;margin-top:6px;}
+.tea_news{width:300px;float:right;}
+.new_list{width:298px;height:198px;border:#eee 1px solid;margin-top:6px;padding-top:10px; overflow:hidden;}
+#roll li{ width:280px; height:21px;padding-left:10px; background-image:url(../images/new_dian_07.png); background-repeat:no-repeat; background-position:left center;margin:0 15px;line-height:21px;font-size:12px;color:#176f01;}
+#roll{width:290px;height:180px;margin-top:3px;overflow:hidden;}
+#roll li a { width:180px;display:block;color:#176f01;float:left;}
+#roll li a span{ width:100px; display:block;float:right;margin-right:40px; cursor:pointer;}
+.pro_list{width:1000px;float:left;}
+.span_03{font-size:12px;font-family:"宋体";margin-right:627px;}
+.pro_list_pic{width:1000px;height:200px;position:relative;overflow:hidden;}
+.pro_list_pic p{width:1000px;position:absolute;top:71px;}
+.imgBox{width:1400px;position:absolute;}
+.imgBox li{float:left;}
+.button_left{ width:60px;height:60px; background-image:url(../images/left_btn_11.png);background-repeat:no-repeat;float:left;margin-left:15px;}
+.button_right{ width:60px;height:60px; background-image:url(../images/right_btn_11.png);background-repeat:no-repeat;float:right;margin-right:15px;}
+.pro_list_pic img{ width:240px;height:180px;border:#eee 1px solid;margin-left:1px;margin-top:10px;}
+/*页脚*/
+#footer{background-color:#7c9b13;}
+
+.footer{width:1000px;height:125px; margin:0 auto;margin-top:20px;text-align:center;line-height:24px;padding-top:5px; }
+.blogroll span{font-size:14px;color:#fff;font-weight:bold;}
+.blogroll a{font-size:12px;color:#fff;margin-left:10px;}
+.scenic_spots span{font-size:12px;color:#F90; font-weight:bold;}
+.scenic_spots a{font-size:12px;color:#F90;margin-left:10px;margin-top:6px;}
+.copyright{font-size:12px;color:#fff;}
+.copyright a{color:#fff;}
+

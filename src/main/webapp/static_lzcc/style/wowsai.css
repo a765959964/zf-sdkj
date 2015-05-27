@@ -1,0 +1,26 @@
+﻿@charset utf-8;
+body,html,ul,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,div,p,img,table,tr,th,strong{font-family:宋体;margin:0;padding:0;}
+ul,dl{list-style-type:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:400;}
+img{border:0;}
+input{font-size:12px;line-height:18px;color:#8A8A8A;}
+.clear{clear:both;font-size:0;line-height:0;height:0;}
+body{background-color:#FFF;font-size:12px;line-height:20px;color:#5C5C5C;}
+#wrap{width:1000px;background-color:#FFF;margin:0 auto;padding:0 0 8px;}
+/****首页焦点图的部分*******/
+.zhuanti_box{width:1000px;height:auto;float:left;}
+#slideBox{width:1000px;float:left; overflow:hidden;}
+#slideBox .J_slide_list{ width:3600px;}
+#slideBox .J_slide_list .J_slide_item{width:1000px; height:389px; float:left;}
+#slideBox .J_slide_list .J_slide_item img{vertical-align:top;}
+#slideBox .J_slide_trigger{width:1000px;height:32px; position:absolute; top:356px; background-image:url(../images/banner_b_bg_03.png);}
+#slideBox .J_slide_trigger li,.J_slide_trigger a{width:250px;}
+#slideBox .J_slide_trigger li{float:left;height:32px;line-height:32px;text-align:center;_display:inline;overflow:hidden;}
+#slideBox .J_slide_trigger li a{
+	display: block;
+	height: 32px;
+	color: #fff;
+	font-family:"宋体";
+	font-size:14px; font-weight:bold;
+}
+#slideBox .J_slide_trigger li.cur a,.J_slide_trigger li a:hover{color:#cef44e; text-decoration:none; background-image:url(../images/banner_b_bg_03.png);}

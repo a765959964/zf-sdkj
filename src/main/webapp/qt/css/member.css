@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenter{ width:940px; margin:0 auto; background:#fff; padding:5px;}
+.contenter_l{ width:663px; float:left;}
+.contenter_l_t{ background:url(../images/left_t.jpg) no-repeat; height:31px; line-height:31px; font-weight:bold; text-indent:15px; color:#333; font-size:13px;}
+.contenter_l_con{border:1px solid #e5e5e5; padding:10px;}
+
+contenter_r_1,.contenter_r_2,.contenter_r_3{ margin-bottom:10px;}
+.contenter_r{ width:263px; float:right;}
+.contenter_r_t{ background:url(../images/right_t.gif) no-repeat; height:31px; line-height:27px; font-weight:bold; text-indent:35px; color:#FFF; font-size:13px;}
+.contenter_r_1_con,.contenter_r_2_con,.contenter_r_3_con,.contenter_r_4_con{border:1px solid #e5e5e5; padding:10px;}
+.contenter_r_2_con ul li{ height:30px; line-height:30px; border-bottom:1px dashed #ccc; width:90%;}
+
+
+
+
+
+
+
+
+.m_cd_list{padding:5px;}
+.m_cd_list ul li {height:30px; line-height:30px;}
+.m_wz{line-height:30px; height:30px; padding-left:10px; border-bottom:2px solid #334f1f;}
+.m_c{}
+
+
+.contact_box{}
+.contact_box_xx{}
+.contact_box_xx_title{background:#F4F5EB; height:25px; line-height:25px; padding:0 10px; color:#62AC00;}
+.contact_box_xx_body{padding:15px; line-height:22px;}
+.contact_box_xx_back{ height:22px; line-height:22px; padding:0 10px; margin-top:10px;}
+
+.contact_box_message{background:none; margin-top:10px;}
+.contact_box_message_title{background:#F4F5EB; height:25px; line-height:25px; padding:0 10px; color:#62AC00;}
+
+.list_page{ margin-top:20px;}
+a.list_page_num{padding:2px 6px 2px; border-bottom:1px solid #ccc; color:#333; font-size:14px;}
+a.list_page_num:hover{text-decoration:none; border-bottom:1px solid #334f1f; color:#334f1f; font-weight:bold;}
+a.list_page_hover{padding:2px 6px 2px; border-bottom:1px solid #334f1f; color:#334f1f; font-weight:bold; font-size:14px;}
+a.list_page_hover:hover{padding:2px 6px 2px; border-bottom:1px solid #334f1f; color:#334f1f; font-weight:bold; text-decoration:none;}
+a.page_a{color:#333;}
+a.page_a:hover{color:#334f1f;}
+
+
+

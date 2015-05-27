@@ -1,0 +1,88 @@
+
+fieldset, img {
+    border: 0 none;
+}
+address, caption, cite, code, dfn, th, var, i, s {
+    font-style: normal;
+    font-weight: normal;
+}
+li {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+input[type="search"] {
+}
+input[type="checkbox"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+a img, a span, a strong, a s {
+}
+body, button, select, textarea, input {
+    font-family: Microsoft YaHei,Tahoma,SimSun,Verdana;
+    font-size: 12px;
+    line-height: 1.5;
+}
+body {
+    word-wrap: break-word;
+}
+button {
+    overflow: visible;
+    white-space: nowrap;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+	color:#222;
+}
+a:hover {
+    text-decoration: none;
+	color:#f34444;
+}
+a:active {
+    outline: medium none;
+}
+a:focus {
+}
+div[contenteditable="true"] {
+    word-wrap: break-word;
+}
+.clearfix:before, .clearfix:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.hide {
+    display: none !important;
+}
+.radius4px{
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+    -webkit-border-radius:4px;
+ }
+.cf{overflow:hidden;_zoom:1;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/*---------------------------- text ---------------------------------*/
+.12px-gray{ color:##868686;line-height:24px;}
+.12px-hei{ color:##5a5a5a; line-height:24px;}
+.Paragraph-rule{ clear:both; color:#5a5a5a}
+.Paragraph-rule p{ margin-top:15px;}
+.Paragraph-rule ol li{ margin-top:5px;}

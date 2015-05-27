@@ -1,0 +1,9 @@
+
+
+.dls-map{background:url(../images/map.jpg) no-repeat top center; width:729px; height:601px; border:none; position:relative; }
+.dls-map li{ display: block; position:absolute; z-index:2; font-size:16px;}
+.mapl a{ display:inline-block; padding-left:32px; background:url(../images/dls-mapicon.png) no-repeat left top; height:28px; line-height:20px; color:#636363;}
+.mapl a:hover{ background:url(../images/dls-mapicon-hover.gif) no-repeat left top; color:#f34444;}
+.mapr a{ display:inline-block; padding-right:32px; background:url(../images/dls-mapicon.png) no-repeat right top; height:28px; line-height:20px; color:#636363; text-align:right;}
+.mapr a:hover{ background:url(../images/dls-mapicon-hover.gif) no-repeat right top; color:#f34444;}
+

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{ text-decoration:none; color:inherit;}
+ul,li{ list-style-type:none;}
+/*交互效果*/
+a:hover{color:#cef44e;}
+#roll a:hover{color:#cef44e;}
+#tea_news_01 a:hover{color:#cef44e;}
+#tea_news_01 span:hover{color:#cef44e;}
+.drop-menu-effect:hover{ background:url(../images/nav_bg_03.png) no-repeat center; color:#F90;z-index:99;}
+.submenu{width:80px;height:135px;padding-top:80px;display:none;position:absolute;top:40px;left:0px; background: #b9e32b; background:url(../images/nav_about_bg_03.png) no-repeat center 0; top:0;z-index:0; behavior:url("pngbehavior.htc");
+}
+.submenu li{width:80px;height:20px; color:#fff; font-size:12px;text-align:center;line-height:20px; }
+.submenu li a{ color:#fff;}
+.submenu li:hover{ background-color:#389920;color:#F90;}
+.submenu li a:hover{color:#F90;}
+.list_menu_b{width:80px;height:40px;}
+/*选项卡*/
+.menubox{width:380px;margin-top:38px;float:left;margin-left:10px;}
+.menulist{ overflow:hidden;}
+.menulist li{float:left;width:84px;height:32px;line-height:32px;text-align:center; margin-right:2px;}
+.content{width:380px;height:214px; border:1px solid #176f01; margin-top:-1px;}
+.current{background-color:#FFF; background:url(../images/menu_list_bg_04_03.png) no-repeat;font-family:"宋体"; font-size:14px; font-weight:bold; color:#176f01;}
+.others{ background:url(../images/menu_list_bg_03.png) top center no-repeat;background-color:#176f01;font-family:"宋体"; font-size:14px;line-height:36px; font-weight:bold;color:#F90;}
+.content p{ width:360px;font-size:12px; color:#333; font-family:"宋体"; line-height:20px;margin-top:15px;margin-left:10px;}
+.content_p01{ width:360px;font-size:12px; color:#333; font-family:"宋体"; line-height:20px;}
+.content_p01 a{color:#F90;}
+.content p a{color:#F90;text-align:center;}
+.content img{height:180px;width:135px;margin-top:18px;margin-left:18px;float:left; border:#666 1px solid;}
+.pro_intro{width:150px;float:left;margin-top:28px;margin-left:10px;}
+.pro_intro h4{color:#333;} 
+/*茶园动态*/
+#tea_news_01{margin:0 5px;overflow:hidden;};
+#tea_news_01 li{padding-left:10px; background-image:url(../images/new_dian_07.png); background-repeat:no-repeat; background-position:left center;margin:0 15px;line-height:21px;font-size:12px;color:#176f01;}
+#tea_news_01 li a{color:#176f01;}
+#tea_news_01 span{color:#176f01;float:right;}
+/*茶品推荐*/
+
+/*logo导航*/
+body{ background-image:url(../images/body_bg.png);}
+.body_box{width:1000px;margin:0 auto;}
+.header{width:1000px; height:120px; background-image:url(../images/top_bg_02.png);background-position:right top; background-repeat:no-repeat; margin:0 auto;}
+.header img{margin-top:30px; float:left;}
+.nav_top{width:572px;float:right;margin-top:40px;margin-right:50px;}
+.drop-menu-effect{width:80px;height:80px; background:url(../images/nav_bg_05.png) no-repeat center;margin-left:62px;float:left;position:relative;z-index:99;}
+.nav_top li p{ text-align:center;line-height:22px;font-size:12px;color:#FFF;margin-top:20px; font-family:"宋体";}
+.nav_top li p a{ color:#fff;font-size:14px; font-weight:bold; }
+.nav_top li p span{font-weight:bold;font-size:14px;}
+/*图片轮播*/
+.banner_box{width:1000px;height:388px; border-top:#135e00 12px solid; position:relative;overflow:hidden;margin:0 auto;margin-top:40px;}
+.banner_box img{float:left;}
+.banner_img_box{width:5760px;height:388px;}
+.banner{width:100%;height:28px;position:absolute;bottom:0; background-image:url(../images/banner_b_bg_03.png);}
+.banner ul{width:1000px;height:28px;margin-left:auto;margin-right:auto;}
+.banner li{width:240px;height:28px;color:#ddd; font-size:14px;font-weight:bold;text-align:center;line-height:28px;background-image:url(../images/banner_b_bg_03.png);margin-left:5px;margin-right:5px;float:left;}
+/*内容*/
+.container_box{width:1000px; margin:0 auto;overflow:hidden;}
+.about_lzc{width:300px;float:left;}
+.cloumn_bg{width:69px;height:52px;background-image:url(../images/bg_top_06.png); background-repeat:no-repeat;float:left;}
+.cloumnA{height:52px;margin-top:17px;}
+.cloumn_n{height:52px;float:right; border-bottom:#176f01 1px solid;}
+.cloumn_n a{color:#F90;font-size:12px;font-weight:bold;margin-top:22px;float:right;margin-right:10px; margin-left:70px;}
+.cloumn_n p{color:#176f01;margin-top:12px;float:left;}
+.span_01{font-size:14px;font-weight:bold;}
+.span_02{font-size:12px; font-family:"宋体";}
+.video_com{width:298px;height:208px;border:#176f01 1px solid;margin-top:6px;}
+.tea_news{width:300px;float:right;}
+.new_list{width:298px;height:203px;border:#eee 1px solid;margin-top:6px;padding-top:05px; overflow:hidden;}
+.new_list li{padding-left:10px; background-image:url(../images/new_dian_07.png); background-repeat:no-repeat; background-position:left center;margin:0 15px; height:21px;line-height:21px;font-size:12px;color:#176f01;}
+.new_list li a{ color:#176f01; }
+#roll{width:270px;height:180px;margin:10px;overflow:hidden;}
+.new_list li span{float:right;}
+.pro_list{width:1000px;float:left;}
+.span_03{font-size:12px;font-family:"宋体";margin-right:630px;}
+.pro_list_pic{width:1000px;position:relative;overflow:hidden;}
+.pro_list_pic p{width:1000px;position:absolute;top:71px;}
+.imgBox{width:1400px;position:absolute;}
+.imgBox li{float:left;}
+.button_left{ width:60px;height:60px; background-image:url(../images/left_btn_11.png);background-repeat:no-repeat;float:left;margin-left:15px;}
+.button_right{ width:60px;height:60px; background-image:url(../images/right_btn_11.png);background-repeat:no-repeat;float:right;margin-right:15px;}
+.bannerbox img{ width:240px;height:180px;border:#eee 1px solid;margin-left:4px;margin-top:10px;margin-right:4px;}
+/*页脚*/
+#footer{background-color:#7c9b13;}
+
+.footer{width:1000px;height:125px; margin:0 auto;margin-top:20px;text-align:center;line-height:24px;padding-top:5px;}
+.blogroll span{font-size:14px;color:#fff;font-weight:bold;}
+.blogroll a{font-size:12px;color:#fff;margin-left:10px;}
+.scenic_spots span{font-size:12px;color:#F90; font-weight:bold;}
+.scenic_spots a{font-size:12px;color:#F90;margin-left:10px;margin-top:6px;}
+.copyright{font-size:12px;color:#fff;}
+.copyright a{color:#fff;}
+
+
+

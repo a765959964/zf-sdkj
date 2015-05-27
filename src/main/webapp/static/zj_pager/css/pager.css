@@ -1,0 +1,58 @@
+#zj_pager {
+	padding-top: 15px;
+}
+
+#zj_pager .sabrosus {
+	padding: 3px;
+	text-align: center;
+	width: auto;
+	display: inline;
+}
+
+#zj_pager .sabrosus a {
+	float: left;
+	border: solid 1px #9aafe5;
+	padding: 3px 6px;
+	color: #0071e3;
+	margin: 0 2px;
+	text-decoration: none;
+	<!--width: 40px; --> 
+}
+
+#zj_pager .sabrosus a:hover {
+	float: left;
+	border: solid 1px #333;
+	color: #000;
+	background-color: #FFEFD5;
+}
+
+#zj_pager .sabrosus span.current {
+	width:40px;
+	float: left;
+	padding: 4px 6px;
+	font-weight: bold;
+	background-image: none;
+	margin: 0 2px;
+	color: #7C9B13;
+	padding: 4px 6px;
+	border: solid 1px #9aafe5;
+}
+
+#zj_pager .sabrosus span.disabled {
+	<!--width: 40px; --> 
+	float : left;
+	border: solid 1px #929292;
+	padding: 3px 6px;
+	margin: 0 3px;
+	color: #929292;
+	float: left;
+}
+
+#zj_pager .pageNum {
+	padding: 3px;
+	width: auto;
+	display: inline;
+	border: solid 1px #9aafe5;
+	color: #0071e3;
+	margin: 0 2px;
+}
